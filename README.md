@@ -1,12 +1,12 @@
-# hapi-context-credentials
+# hapi-context-app
 
-[![Build Status](https://travis-ci.org/mtharrison/hapi-context-credentials.svg)](https://travis-ci.org/mtharrison/hapi-context-credentials)
+[![Build Status](https://travis-ci.org/millette/hapi-context-app.svg)](https://travis-ci.org/millette/hapi-context-app)
 
-hapi.js plugin - Include `request.auth.credentials` in default view context, if user is authenticated.
+hapi.js plugin - Include `request.server.settings.app` in default view context, if user is authenticated.
 
 ##Install
 
-`npm install --save hapi-context-credentials`
+`npm install --save hapi-context-app`
 
 ##Background
 
@@ -22,7 +22,7 @@ handler: function (request, reply) {
     });
 }
 ```
-  
+
 And in my template I might have something like:
 
     {{#if credentials.firstName}}
@@ -39,11 +39,11 @@ Just register like any Hapi plugin:
 
 ```js
 server.register(require('hapi-context-credentials'), (err) => {
-    
+
     if (err) {
         throw err;
     }
-    
+
     server.start(function (err) {
 
         if (err) {
@@ -53,8 +53,8 @@ server.register(require('hapi-context-credentials'), (err) => {
     });
 });
 ```
-    
-You can then output `credentials` in your views. 
+
+You can then output `credentials` in your views.
 
 ##Credit
 

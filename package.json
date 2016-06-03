@@ -1,16 +1,23 @@
 {
-  "name": "hapi-context-credentials",
-  "version": "2.0.0",
-  "description": "Include `request.auth.credentials` in template view context",
+  "name": "hapi-context-app",
+  "version": "0.0.0",
+  "description": "Include `request.server.settings.app` in template view context",
   "main": "index.js",
-  "author": "Matt Harrison",
+  "author": {
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "http://robin.millette.info"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "license": "BSD-3-Clause",
   "scripts": {
     "test": "lab -a code -t 100 -L",
     "test-cov-html": "lab -a code -r html -o coverage.html"
   },
   "peerDependencies": {
-    "hapi": ">=8.x.x"
+    "hapi": ">=13.x.x"
   },
   "devDependencies": {
     "code": "^1.5.0",
