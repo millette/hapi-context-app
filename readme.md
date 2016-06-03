@@ -1,6 +1,7 @@
 # hapi-context-app
 
 [![Build Status](https://travis-ci.org/millette/hapi-context-app.svg)](https://travis-ci.org/millette/hapi-context-app)
+[![Dependency Status](https://gemnasium.com/badges/github.com/millette/hapi-context-app.svg)](https://gemnasium.com/github.com/millette/hapi-context-app)
 
 hapi.js plugin - Include `request.server.settings.app` in default view context.
 

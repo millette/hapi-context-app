@@ -2,6 +2,7 @@
   "name": "hapi-context-app",
   "version": "0.1.0",
   "description": "Include `request.server.settings.app` in template view context",
+  "repository": "millette/hapi-context-app",
   "main": "index.js",
   "author": {
     "name": "Robin Millette",
@@ -11,6 +12,9 @@
   "engines": {
     "node": ">=4"
   },
+  "keywords": [
+    "hapi"
+  ],
   "license": "BSD-3-Clause",
   "scripts": {
     "lint": "standard",
@@ -22,7 +26,7 @@
   },
   "devDependencies": {
     "code": "^1.5.0",
-    "handlebars": "3.x.x",
+    "handlebars": "4.x.x",
     "hapi": "13.x.x",
     "hapi-auth-basic": "3.x.x",
     "lab": "^5.15.2",
