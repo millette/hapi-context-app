@@ -25,7 +25,7 @@ handler: function (request, reply) {
 
 And in my template I might have something like:
 
-    <h1>{{app.pageTitle}}</h1>
+    <h1>{{app.siteName}}</h1>
 
 This module saves the work by ensuring `request.server.settings.app` is included in every view context on your server, so you don't need to manually include it in your handlers.
 
