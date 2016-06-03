@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/millette/hapi-context-app.svg)](https://travis-ci.org/millette/hapi-context-app)
 
-hapi.js plugin - Include `request.server.settings.app` in default view context, if user is authenticated.
+hapi.js plugin - Include `request.server.settings.app` in default view context.
 
 ##Install
 
