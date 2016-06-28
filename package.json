@@ -23,6 +23,6 @@
     "hapi": ">=13.x.x"
   },
   "devDependencies": {
-    "standard": "^7.1.1"
+    "standard": "^7.1.2"
   }
 }
