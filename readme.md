@@ -58,3 +58,5 @@ You can then output `app` in your views.
 The idea for this plugin came from https://github.com/hapijs/hapi/issues/2419. Credit to @ubaltaci for the preResponse handler idea.
 
 Original source code came from https://github.com/mtharrison/hapi-context-credentials. Credit to Matt Harrison.
+
+**hapi-context-app** by [Robin Millette](http://robin.millette.info/)
