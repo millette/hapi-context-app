@@ -1,6 +1,6 @@
 {
   "name": "hapi-context-app",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Include `request.server.settings.app` in template view context",
   "repository": "millette/hapi-context-app",
   "main": "index.js",
