@@ -24,6 +24,6 @@
     "hapi": "^16.1.0"
   },
   "devDependencies": {
-    "standard": "^8.6.0"
+    "standard": "^14.1.0"
   }
 }
